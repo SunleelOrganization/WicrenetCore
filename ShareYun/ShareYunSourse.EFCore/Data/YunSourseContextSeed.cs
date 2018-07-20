@@ -14,7 +14,7 @@ namespace ShareYunSourse.EFCore.Data
         {
             if (!context.User.Any())
             {
-                var defaultUser = new User { UserName = "admin", UserPwd = "123123", Email = "121@qq.com", Age = 23, CreationTime = DateTime.Now };
+                var defaultUser = new User { UserName = "sunleel", UserPwd = "sunleel", Email = "838283226@qq.com", Age = 27, CreationTime = DateTime.Now };
                 await context.User.AddAsync(defaultUser);
                 await context.SaveChangesAsync();
             }

@@ -23,7 +23,7 @@ namespace ShareYunSourse.Application
         private readonly IRepository<YunSourse> _yunSourseIRepository;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IUnitOfWork _unitOfWork;
-        public UserManager(IRepository<User> userIRepository, 
+        public UserManager(IRepository<User> userIRepository,
             IHttpContextAccessor httpContextAccessor,
             IUnitOfWork unitOfWork,
             IRepository<YunSourse> yunSourseIRepository)
@@ -41,8 +41,8 @@ namespace ShareYunSourse.Application
             var query = _userIRepository.GetAll()
                    .WhereIf(!string.IsNullOrEmpty(input.UserName), m => m.UserName.Contains(input.UserName))
                    .WhereIf(!string.IsNullOrEmpty(input.Email), m => m.Email.Contains(input.Email));
-            var count =  query.CountAsync();
-            var result =  query
+            var count = query.CountAsync();
+            var result = query
                     .Skip(input.Offset)
                     .Take(input.Limit)
                     .ToListAsync();
@@ -95,13 +95,13 @@ namespace ShareYunSourse.Application
 
         public async Task SignSession(User user)
         {
-            //var claimsPri = new ClaimsPrincipal(new ClaimsIdentity(new[] { new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()) }, CookieAuthenticationDefaults.AuthenticationScheme));
+            var claimsPri = new ClaimsPrincipal(new ClaimsIdentity(new[] { new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()) }, CookieAuthenticationDefaults.AuthenticationScheme));
 
-            //await _httpContextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPri, new AuthenticationProperties
-            //{
-            //    IsPersistent = true,
-            //    ExpiresUtc = DateTimeOffset.Now.Add(TimeSpan.FromMinutes(30))
-            //});
+            await _httpContextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPri, new AuthenticationProperties
+            {
+                IsPersistent = true,
+                ExpiresUtc = DateTimeOffset.Now.Add(TimeSpan.FromMinutes(30))
+            });
         }
 
 
@@ -188,19 +188,19 @@ namespace ShareYunSourse.Application
             sw.Start();
             var query = _userIRepository.GetAll();
             var query1 = _yunSourseIRepository.GetAll();
-            var list =await query.Select(m => new { m.Email, m.UserName }).ToListAsync();//异步查询User表中全部数据
+            var list = await query.Select(m => new { m.Email, m.UserName }).ToListAsync();//异步查询User表中全部数据
 
-            var count =await query1.ToListAsync();//异步查询User表中的数量
+            var count = await query1.ToListAsync();//异步查询User表中的数量
             sw.Stop();
             var s = sw.ElapsedMilliseconds;
         }
 
         public async Task InsertUsers()
         {
-            for (int i = 1; i < 10000; i++)
+            for (int i = 1; i < 10; i++)
             {
-               // _userIRepository.Insert(new User { UserName = "hww" + i, UserPwd = "123123", Email = i + "121@qq.com" });
-                _yunSourseIRepository.Insert(new YunSourse { Content="text"+i,CreationTime=DateTime.Now,Title="111" });
+                _userIRepository.Insert(new User { UserName = "sunleel" + i, UserPwd = "sunleel", Email = i + "838283226@qq.com" });
+                _yunSourseIRepository.Insert(new YunSourse { Content = "sunleel" + i, CreationTime = DateTime.Now, Title = "sunleel" });
             }
             _unitOfWork.SaveChanges();
         }

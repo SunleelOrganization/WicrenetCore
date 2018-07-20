@@ -47,7 +47,7 @@ namespace ShareYunSourse
                        });
             services.Configure<KestrelServerOptions>(Configuration);//配置Kestrel服务器
 
-            services.AddDbContext<YunSourseContext>(option => option.UseSqlServer(Configuration.GetConnectionString("Default"), b => b.UseRowNumberForPaging()));//配置sqlserver
+           services.AddDbContext<YunSourseContext>(option => option.UseSqlServer(Configuration.GetConnectionString("Default"), b => b.UseRowNumberForPaging()));//配置sqlserver
 
 
             services.AddScoped<IUnitOfWork,UnitOfWork<YunSourseContext>>();//注入UOW依赖，确保每次请求都是同一个对象
