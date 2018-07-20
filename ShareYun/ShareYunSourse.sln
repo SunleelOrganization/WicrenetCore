@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShareYunSourse.Web", "ShareYunSourse\ShareYunSourse.Web.csproj", "{802AC3B9-03F1-414B-84DB-786870E07987}"
+	ProjectSection(ProjectDependencies) = postProject
+		{329F443F-8647-4641-8570-660B900FE43E} = {329F443F-8647-4641-8570-660B900FE43E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShareYunSourse.EFCore", "ShareYunSourse.EFCore\ShareYunSourse.EFCore.csproj", "{329F443F-8647-4641-8570-660B900FE43E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C92139AB-70D3-466E-8D17-F53A88CFEABA} = {C92139AB-70D3-466E-8D17-F53A88CFEABA}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShareYunSourse.Core", "ShareYunSourse.Core\ShareYunSourse.Core.csproj", "{C92139AB-70D3-466E-8D17-F53A88CFEABA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShareYunSourse.Application", "ShareYunSourse.Application\ShareYunSourse.Application.csproj", "{1B729F08-E362-4BEC-B6EA-8E8E3BE5A354}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C92139AB-70D3-466E-8D17-F53A88CFEABA} = {C92139AB-70D3-466E-8D17-F53A88CFEABA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareYunSourseWebApi", "ShareYunSourseWebApi\ShareYunSourseWebApi.csproj", "{F8891780-2F39-4275-B41D-D495B8447C2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B729F08-E362-4BEC-B6EA-8E8E3BE5A354} = {1B729F08-E362-4BEC-B6EA-8E8E3BE5A354}
+		{C92139AB-70D3-466E-8D17-F53A88CFEABA} = {C92139AB-70D3-466E-8D17-F53A88CFEABA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802AC3B9-03F1-414B-84DB-786870E07987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802AC3B9-03F1-414B-84DB-786870E07987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802AC3B9-03F1-414B-84DB-786870E07987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802AC3B9-03F1-414B-84DB-786870E07987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329F443F-8647-4641-8570-660B900FE43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329F443F-8647-4641-8570-660B900FE43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329F443F-8647-4641-8570-660B900FE43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329F443F-8647-4641-8570-660B900FE43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92139AB-70D3-466E-8D17-F53A88CFEABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92139AB-70D3-466E-8D17-F53A88CFEABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92139AB-70D3-466E-8D17-F53A88CFEABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92139AB-70D3-466E-8D17-F53A88CFEABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B729F08-E362-4BEC-B6EA-8E8E3BE5A354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B729F08-E362-4BEC-B6EA-8E8E3BE5A354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B729F08-E362-4BEC-B6EA-8E8E3BE5A354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B729F08-E362-4BEC-B6EA-8E8E3BE5A354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8891780-2F39-4275-B41D-D495B8447C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8891780-2F39-4275-B41D-D495B8447C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8891780-2F39-4275-B41D-D495B8447C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8891780-2F39-4275-B41D-D495B8447C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4238FC39-BC13-4313-BE9A-67C743BFFCC1}
+	EndGlobalSection
+EndGlobal

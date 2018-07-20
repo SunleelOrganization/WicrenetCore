@@ -1,0 +1,5 @@
+﻿{
+  "noDelay": false,
+  "shutdownTimeout": "00:00:10",
+  "threadCount": 10
+}
