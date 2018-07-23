@@ -4,15 +4,17 @@ using System;
 
 namespace ShareYunSourse.EFCore
 {
-    public class YunSourseContext:DbContext
+    public class YunSourseContext : DbContext
     {
         public YunSourseContext(DbContextOptions<YunSourseContext> option)
-            :base(option)
+            : base(option)
         {
         }
 
         public DbSet<YunSourse> YunSourse { get; set; }
         public DbSet<User> User { get; set; }
+
+        public DbSet<Role> Role { get; set; }
 
 
     }

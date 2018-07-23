@@ -35,6 +35,7 @@ D:\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.As
 D:\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.csproj.CopyComplete
 D:\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.dll
 D:\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.pdb
+D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.AssemblyInfo.cs
 D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\bin\Debug\netcoreapp2.0\AspNetCoreApiSwagger.xml
 D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\bin\Debug\netcoreapp2.0\ShareYunSourseWebApi.deps.json
 D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\bin\Debug\netcoreapp2.0\ShareYunSourseWebApi.runtimeconfig.json
@@ -50,7 +51,6 @@ D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\bin\Debug\netcoreapp2.0\ShareYunSo
 D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.csprojAssemblyReference.cache
 D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.csproj.CoreCompileInputs.cache
 D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.AssemblyInfoInputs.cache
-D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.AssemblyInfo.cs
 D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.csproj.CopyComplete
 D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.dll
 D:\WicrenetCore\ShareYun\ShareYunSourseWebApi\obj\Debug\netcoreapp2.0\ShareYunSourseWebApi.pdb
