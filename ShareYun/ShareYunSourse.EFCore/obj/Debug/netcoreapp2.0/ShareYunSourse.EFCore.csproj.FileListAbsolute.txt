@@ -23,3 +23,15 @@ D:\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.
 D:\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.csproj.CopyComplete
 D:\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.dll
 D:\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.pdb
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\bin\Debug\netcoreapp2.0\ShareYunSourse.EFCore.deps.json
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\bin\Debug\netcoreapp2.0\ShareYunSourse.EFCore.dll
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\bin\Debug\netcoreapp2.0\ShareYunSourse.EFCore.pdb
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\bin\Debug\netcoreapp2.0\ShareYunSourse.Core.dll
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\bin\Debug\netcoreapp2.0\ShareYunSourse.Core.pdb
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.csprojAssemblyReference.cache
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.csproj.CoreCompileInputs.cache
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.AssemblyInfoInputs.cache
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.AssemblyInfo.cs
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.csproj.CopyComplete
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.dll
+D:\WicrenetCore\ShareYun\ShareYunSourse.EFCore\obj\Debug\netcoreapp2.0\ShareYunSourse.EFCore.pdb

@@ -24,3 +24,15 @@ D:\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.Asse
 D:\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.csproj.CopyComplete
 D:\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.dll
 D:\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.pdb
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\bin\Debug\netcoreapp2.0\ShareYunSourse.Core.deps.json
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\bin\Debug\netcoreapp2.0\ShareYunSourse.Core.dll
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\bin\Debug\netcoreapp2.0\ShareYunSourse.Core.pdb
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\bin\Debug\netcoreapp2.0\Newtonsoft.Json.dll
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\bin\Debug\netcoreapp2.0\Newtonsoft.Json.xml
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.csprojAssemblyReference.cache
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.csproj.CoreCompileInputs.cache
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.AssemblyInfoInputs.cache
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.AssemblyInfo.cs
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.csproj.CopyComplete
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.dll
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.pdb
