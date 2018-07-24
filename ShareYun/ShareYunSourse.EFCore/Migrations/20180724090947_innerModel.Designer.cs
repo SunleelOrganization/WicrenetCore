@@ -11,9 +11,10 @@ using System;
 namespace ShareYunSourse.EFCore.Migrations
 {
     [DbContext(typeof(YunSourseContext))]
-    partial class YunSourseContextModelSnapshot : ModelSnapshot
+    [Migration("20180724090947_innerModel")]
+    partial class innerModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

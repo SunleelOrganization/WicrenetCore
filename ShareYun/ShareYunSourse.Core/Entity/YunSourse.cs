@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -8,8 +9,12 @@ namespace ShareYunSourse
     /// 云资源
     /// </summary>
     [Table("YunSourse")]
-    public class YunSourse: Entity
+    public class YunSourse : Entity
     {
+        public YunSourse()
+        {
+            yunSourses = new HashSet<YunSourse>();
+        }
         [MaxLength(300)]
         public string Title { get; set; }
         [MaxLength(100)]
@@ -18,6 +23,8 @@ namespace ShareYunSourse
         public string Content { get; set; }
 
         public DateTime CreationTime { get; set; }
+
+        public virtual ICollection<YunSourse> yunSourses { get; set; }
 
     }
 }

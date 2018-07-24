@@ -35,3 +35,4 @@ D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSou
 D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.csproj.CopyComplete
 D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.dll
 D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.pdb
+D:\WicrenetCore\ShareYun\ShareYunSourse.Core\obj\Debug\netcoreapp2.0\ShareYunSourse.Core.csprojAssemblyReference.cache

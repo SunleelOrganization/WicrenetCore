@@ -11,10 +11,6 @@ namespace ShareYunSourse
     [Table("Role")]
     public class Role : Entity
     {
-        public Role()
-        {
-            yunSourses = new HashSet<YunSourse>();
-        }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -25,8 +21,7 @@ namespace ShareYunSourse
         public int status { get; set; }
         public DateTime CreationTime { get; set; }
 
-        public int SourseID { get; set; }
-        public virtual ICollection<YunSourse> yunSourses { get; set; }
+        public virtual YunSourse yunSourse { get; set; }
 
     }
 }
